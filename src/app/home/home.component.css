@@ -1,0 +1,23 @@
+h5{
+    text-align: center;
+};
+p{
+    text-align: center;
+};
+
+.clear20 {
+    clear: both;
+    height: 20px !important;
+};
+.promo-box {
+    width: 900px;
+    position: relative;
+    padding: 20px 0 20px 0;
+    color: #606060;
+    overflow: hidden;
+    font-style: italic;
+    border-bottom: 1px dashed #ccc;
+};
+.highlight {
+    color: #F36622;
+}

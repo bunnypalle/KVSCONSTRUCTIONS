@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>KVS CONSTRUCTIONS</h1>
+  <nav class="navbar navbar-expand-lg navbar fixed-top navbar-blue bg-dark" style="background-color: black;">
+    <div class="container-fluid">
+      <a class="navbar-brand"  routerLink="/home" style="border-radius: 50%;">
+        <img src="./assets/images/logo2.jpg" alt="noimg"  width="40" height="30" style="border-radius: 50%;">
+      </a>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/aboutus">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contactus">Contactus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/career">Career</a>
+          </li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+  
+  <router-outlet></router-outlet>
+</body>
+</html>
+
+
+
